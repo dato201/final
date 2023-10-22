@@ -1,0 +1,129 @@
+.conteiner {
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+    background-color: #1A1A1A;
+    padding-top: 86px;
+}
+/* header */
+header{
+    overflow: hidden;
+    padding: 16px 0;
+    background-color: #012426;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid #A1C3C9;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.header_ul{
+    display: flex;
+    column-gap: 72px;
+}
+.header_li{
+    color: #A1C3C9;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+/* header_div */
+.header_div{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.header_div_text_conteiner{
+    display: flex;
+    column-gap: 32px;
+}
+.header_div_text{
+    color: #A1C3C9;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37px;
+}
+.fa-chevron-down{
+    font-size: 24px;
+    color: #05BCCA;
+}
+.img_conteiner{
+    display: flex;
+    column-gap: 32px;
+}
+.cart_shopping{
+    border-radius: 8px;
+    border: 2px solid #05BCCA;
+    padding: 7px;
+}
+.body_nav{
+    background-color: #1A1A1A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav_ul{
+    margin: 36px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav_button{
+    border: 1px solid #05BCCA;
+    background-color: #1A1A1A;
+    padding: 18px 24px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 37px;
+}
+/* section1 */
+.section1{
+    height: 480px;
+    background-image: url("../images/guitar1.png");
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.fa-chevron-left{
+    border-radius: 4px;
+    background: #C46A2B;
+    color: #FFF;
+    padding: 20px;
+}
+.section1_conteiner{
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+    margin-bottom: 372px;
+}
+.section1_h1{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+}
+.fa-arrow-right-long{
+    border-radius: 4px;
+    background: #C46A2B;
+    color: #FFF;
+    padding: 2px 7px;
+}
+.fa-chevron-right{
+    border-radius: 4px;
+    background: #C46A2B;
+    color: #FFF;
+    padding: 20px;
+}
+span{
+    color: #05BCCA;
+}
