@@ -7,6 +7,8 @@
 }
 /* header */
 header{
+    max-width: inherit;
+    width: inherit;
     overflow: hidden;
     padding: 16px 0;
     background-color: #012426;
@@ -92,7 +94,7 @@ header{
     justify-content: space-around;
     align-items: center;
 }
-.fa-chevron-left{
+.chevron_section1{
     border-radius: 4px;
     background: #C46A2B;
     color: #FFF;
@@ -118,12 +120,131 @@ header{
     color: #FFF;
     padding: 2px 7px;
 }
-.fa-chevron-right{
-    border-radius: 4px;
-    background: #C46A2B;
-    color: #FFF;
-    padding: 20px;
-}
 span{
     color: #05BCCA;
+}
+/* section2 */
+.section2{
+    background-color:#012426;
+    padding: 5% 10%;
+}
+.section2_conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.section2_article{
+    width: calc(504 / 1440 * 100%);
+    height: 240px;
+}
+.article1{
+    background-image: url("../images/guitar-mediator_teal.png");
+}
+.article2{
+    background-image: url("../images/guitar-mediator-orange.png");
+}
+.article3{
+    background-image: url("../images/guitar-mediator-orange.png");
+}
+.article4{
+    background-image: url("../images/guitar-mediator_teal.png");
+}
+.articie_h2{
+    margin: 16px 0 0 16px;
+    color: #F5F5F5;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 37px;
+}
+/* section3 */
+.section3{
+    padding: 10% 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section3_h1{
+    color: #05BCCA;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    margin-bottom: 72px;
+}
+.span_section3{
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+.article_conteiner_conteiner{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+.article_conteiner{
+    display: flex;
+    column-gap: 20px;
+}
+.i_shadow{
+    padding: 8px 14px;
+    font-size: 38px;
+    border-radius: 8px;
+    border: 2px solid #05BCCA;
+}
+.chevron_section3{
+    color: #A1C3C9;
+}
+.i_shadow:hover{
+    box-shadow: 0 0 8px #05BCCA;
+}
+.card_section3{
+    background-color: #2C4246;
+    padding: 8px 8px 16px 8px;
+}
+.card_section3:hover{
+    box-shadow: 0 0 8px 4px #05BCCA;
+}
+.figcaption_card_section3{
+    color: #D9D9D9;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+}
+.text_conteiner{
+    margin-top: 22px;
+    display: flex;
+}
+.star{
+    display: flex;
+}
+.fa-star{
+    color: #C46A2B;
+}
+.article_conteiner_text{
+    color: #A1C3C9;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    margin: 0 73px 0 8px;
+}
+.fa-dollar-sign{
+    color: #05BCCA;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+.section4{
+    height: 756px;
+    background-color: #012426;
 }
