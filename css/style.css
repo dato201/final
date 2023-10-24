@@ -244,7 +244,68 @@ span{
     font-weight: 400;
     line-height: 27px;
 }
+/* section4 */
 .section4{
-    height: 756px;
+    /* height: calc(756 / 1440 * 100%); */
+    padding: calc(96 / 1440 * 100%) calc(94 / 1440 * 100%);
     background-color: #012426;
+    display: flex;
+    flex-direction: column;
+    row-gap: 64px;
+}
+.h_section4{
+    margin: auto;
+    color: #C46A2B;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+.section4_img_conteiner{
+    display: flex;
+    column-gap: 20px;
+}
+.section4_cards{
+    width: 404px;
+    height: 440px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.cards1{
+    background-image: url("../images/Rectangle\ 3\ \(1\).png");
+}
+.cards2{
+    background-image: url("../images/Rectangle\ 3\ \(2\).png");
+}
+.cards3{
+    background-image: url("../images/Rectangle\ 3\ \(3\).png");
+}
+.section4_hover{
+    width: 100%;
+    height: 25%;
+    background-color: #05BCCA99;
+    transition: all 1s ease;
+}
+.section4_hover:hover{
+    height: 100%;
+}
+.section4_hover_div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.div_h5{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+.section4_p{
+    margin-top: 24px;
+}
+.show_div{
+    display: flex;
+    column-gap: 16px;
 }
