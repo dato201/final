@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guitar</title>
+    <link rel="icon" type="images/x-icon" href="images/wpf_guitar.svg">
     <link rel="stylesheet" href="css/reset.css">
     <script src="https://kit.fontawesome.com/e77ac3a5f0.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
@@ -15,7 +16,7 @@
             <!-- nav -->
             <nav class="header_nav">
                 <ul class="header_ul">
-                    <li><a href="" class="header_li">Home</a></li>
+                    <li><a href="index.html" class="header_li">Home</a></li>
                     <li><a href="" class="header_li">Catalog</a></li>
                     <li><a href="" class="header_li">Contact Us</a></li>
                 </ul>
@@ -47,22 +48,22 @@
             <ul class="nav_ul">
                 <li>
                     <a href="">
-                        <button class="nav_button">Classical</button>
+                        <button class="nav_button"><span class="nav_span">Classical</span></button>
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <button class="nav_button">Acoustic</button>
+                        <button class="nav_button"><span class="nav_span">Acoustic</span></button>
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <button class="nav_button">Electric</button>
+                        <button class="nav_button"><span class="nav_span">Electric</span></button>
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <button class="nav_button">Base</button>
+                        <button class="nav_button"><span class="nav_span">Base</span></button>
                     </a>
                 </li>
             </ul>
@@ -223,11 +224,12 @@
         <!-- section5 -->
         <section class="section5">
             <h2 class="section5_h2">JOIN OUR MAILING LIST</h1>
-            <form class="section5_form">
+            <form name="section5_form" class="section5_form">
                 <input type="text" id="fname" name="fname"placeholder="e-mail address" class="section5_input">
                 <button class="section5_button">SUBSCRIBE</button><br>
             </form>
         </section>
+        <!-- footer -->
         <footer>
             <nav class="footer_nav">
                 <ul class="footer_ul">
@@ -247,12 +249,11 @@
                     <h3 class="footer_h3"><span class="footer_span">Contac</span>t</h2>
                     <li><a href="" class="footer_li">Tbilisi, str, Rustaveli 24</a></li>
                     <li><a href="tel:+(32)2 56 78 98" class="footer_li">+(32)2 56 78 98</a></li>
-                    <div class="">
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-square-whatsapp"></i>
+                    <div class="social_netvorcke">
+                        <img src="images/raphael_facebook.svg" alt="">
+                        <img src="images/uim_whatsapp.svg" alt="">
                         <img src="/images/basil_instagram-solid.svg" alt="">
                     </div>
-
                 </ul>
             </nav>
         </footer>
