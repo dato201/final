@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="css/reset.css">
     <script src="https://kit.fontawesome.com/e77ac3a5f0.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/laptops.css">
+    <link rel="stylesheet" href="css/tablets.css">
+    <link rel="stylesheet" href="css/mobile.css">
+
 </head>
 <body>
     <div class="conteiner">
@@ -24,7 +28,10 @@
             <a href="index.html"><img src="images/wpf_guitar.svg" alt="guitar logo" class="guitar_logo"></a>
     <!-- header_div -->
     <div class="header_div">
-        <img src="images/lucide_search.svg" alt="" class="fa_magnifying_glass">
+        <form name="search-box" class="search-box">  
+            <button type="reset" class="btn-search"><img src="images/lucide_search.svg" alt="" class="fa_magnifying_glass"></button>
+            <input type="text" class="input-search" placeholder="Type to Search...">
+        </form>
         <div class="header_div_text_conteiner">
             <div>
                 <a href="" class="header_div_text">En
@@ -48,22 +55,22 @@
             <ul class="nav_ul">
                 <li>
                     <a href="">
-                        <button class="nav_button"><span class="nav_span">Classical</span></button>
+                        <button class="nav_button">Classical</button>
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <button class="nav_button"><span class="nav_span">Acoustic</span></button>
+                        <button class="nav_button">Acoustic</button>
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <button class="nav_button"><span class="nav_span">Electric</span></button>
+                        <button class="nav_button">Electric</button>
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <button class="nav_button"><span class="nav_span">Base</span></button>
+                        <button class="nav_button">Base</button>
                     </a>
                 </li>
             </ul>
@@ -96,13 +103,13 @@
         </section>
         <!-- section3 -->
         <section class="section3">
-            <h2 class="section3_h2">M<span class="span_section3">ost Popula</span>r</h1>
+            <h2 class="section3_h2">M<span class="span_section3">ost Popula</span>r</h2>
             <div class="article_conteiner_conteiner">
                 <div class="i_shadow">
                     <i class="fa-solid fa-chevron-left chevron_section3"></i>
                 </div>
             <div class="article_conteiner">
-                <article class="card_section3">
+                <figure class="card_section3">
                     <img src="images/teal-guitar.png" alt="guitar_teal">
                     <figcaption class="figcaption_card_section3">lorem ipsum</figcaption>
                     <div class="text_conteiner">
@@ -116,8 +123,8 @@
                         <div class="article_conteiner_text">4 reviews</div>
                         <i class="fa-solid fa-dollar-sign"> 950</i>
                     </div>
-                </article>
-                <article class="card_section3">
+                </figure>
+                <figure class="card_section3">
                     <img src="images/teal-guitar.png" alt="guitar_teal" >
                     <figcaption class="figcaption_card_section3">lorem ipsum</figcaption>
                     <div class="text_conteiner">
@@ -131,7 +138,22 @@
                         <div class="article_conteiner_text">4 reviews</div>
                         <i class="fa-solid fa-dollar-sign"> 950</i>
                     </div>
-                </article>
+                </figure>
+                <figure class="card_section3">
+                    <img src="images/teal-guitar.png" alt="guitar_teal">
+                    <figcaption class="figcaption_card_section3">lorem ipsum</figcaption>
+                    <div class="text_conteiner">
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="article_conteiner_text">4 reviews</div>
+                        <i class="fa-solid fa-dollar-sign"> 950</i>
+                    </div>
+                </figure>
                 <article class="card_section3">
                     <img src="images/teal-guitar.png" alt="guitar_teal">
                     <figcaption class="figcaption_card_section3">lorem ipsum</figcaption>
@@ -146,30 +168,15 @@
                         <div class="article_conteiner_text">4 reviews</div>
                         <i class="fa-solid fa-dollar-sign"> 950</i>
                     </div>
-                </article>
-                <article class="card_section3">
-                    <img src="images/teal-guitar.png" alt="guitar_teal">
-                    <figcaption class="figcaption_card_section3">lorem ipsum</figcaption>
-                    <div class="text_conteiner">
-                        <div class="star">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                        <div class="article_conteiner_text">4 reviews</div>
-                        <i class="fa-solid fa-dollar-sign"> 950</i>
-                    </div>
-                </article>
+                </figure>
             </div>
             <div class="i_shadow">
                 <i class="fa-solid fa-chevron-right chevron_section3"></i>
             </div>
-        </div>
-        </section>
-        <!-- section4 -->
-        <section class="section4">
+         </div>
+         </section>
+         <!-- section4 -->
+         <section class="section4">
             <h2 class="h_section4">News</h1>
             <div class="section4_img_conteiner">
                 <div class="section4_cards cards1">

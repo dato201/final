@@ -17,6 +17,7 @@
 
 /* header */
 header {
+    z-index: 1;
     max-width: inherit;
     width: inherit;
     overflow: hidden;
@@ -43,14 +44,81 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
+    transition: all .4s ease;
 }
 
+.header_li:hover{
+    color: #F5F5F5;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
 /* header_div */
 .header_div {
     width: 30%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
 }
+
+/* /////// */
+.search-box{
+    /* width: fit-content; */
+    /* height: fit-content; */
+    position: relative;
+  }
+  .input-search{
+    height: 50px;
+    width: 50px;
+    border-style: none;
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    outline: none;
+    border-radius: 25px;
+    transition: all .5s ease-in-out;
+    background-color: var(--black_neon);
+    padding-right: 40px;
+    color:#fff;
+  }
+  .input-search::placeholder{
+    color:rgba(255,255,255,.5);
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 100;
+  }
+  .btn-search{
+    width: 50px;
+    height: 50px;
+    border-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    right: 0px;
+    color:#ffffff ;
+    background-color:transparent;
+    pointer-events: painted;  
+  }
+  .btn-search:focus ~ .input-search{
+    width: 300px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom:1px solid rgba(255,255,255,.5);
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+  }
+  .input-search:focus{
+    width: 300px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom:1px solid rgba(255,255,255,.5);
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+  }
+  
+/* /////// */
+
 
 .header_div_text_conteiner {
     display: flex;
@@ -77,9 +145,11 @@ header {
 }
 
 .cart_shopping {
+    width: 40px;
+    height: 40px;
     border-radius: 8px;
     border: 2px solid #05BCCA;
-    padding: 7px;
+    padding: 8px;
 }
 
 .body_nav {
@@ -90,6 +160,7 @@ header {
 }
 
 .nav_ul {
+    width: 60%;
     margin: 36px 0;
     display: flex;
     justify-content: center;
@@ -99,17 +170,6 @@ header {
 .nav_button {
     border: 1px solid #05BCCA;
     background-color: #1A1A1A;
-    /* padding: 18px 24px; */
-    /* color: #FFF;
-    font-family: Inter;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 37px; */
-    position: relative;
-    transition: 1s ease;
-}
-.nav_span{
     padding: 18px 24px;
     color: #FFF;
     font-family: Inter;
@@ -117,24 +177,20 @@ header {
     font-style: normal;
     font-weight: 700;
     line-height: 37px;
-    position: absolute;
+    position: relative;
+    transition: 1s ease;
 }
-.nav_button::before {
-    content: "";
-    width: 0;
-    height: 74px;
+
+.nav_button:hover {
     background-color: #A1C3C9;
-    position: absolute;
-    top: 0;
-    left: 0;
+    color: var(--lite_grey);
 }
-.nav_button:hover::before {
-    width: 100%;
-}
+
 /* section1 */
 .section1 {
     height: 480px;
     background-image: url("../images/guitar1.png");
+    background-position: center;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -221,7 +277,8 @@ span {
 
 /* section3 */
 .section3 {
-    padding: 10% 3%;
+    /* padding: 10% 3%; */
+    padding: 96px 26px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -250,11 +307,13 @@ span {
 }
 
 .article_conteiner {
-    display: flex;
+    display: none;
+    /* display: flex; */
     column-gap: 20px;
 }
 
 .i_shadow {
+    display: none;
     padding: 8px 14px;
     font-size: 38px;
     border-radius: 8px;
@@ -348,11 +407,11 @@ span {
 }
 
 .section4_cards {
-    flex: 1 0 404px;
     width: 404px;
     height: 440px;
     display: flex;
     flex-direction: column-reverse;
+    flex: 1 0 404px;
 }
 
 .cards1 {
@@ -454,7 +513,7 @@ span {
 
 .section5_form {
     border: #F5F5F5 solid 1px;
-    width: 480px;
+    width: 100%;
     height: 46px;
     border-radius: 8px;
     display: grid;
