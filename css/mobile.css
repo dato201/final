@@ -1,0 +1,34 @@
+@media (max-width: 575px) {
+    .nav_ul{
+        width: 305px;
+        height: 40px;
+    }
+    .nav_button{
+        padding: 0px;
+    }
+
+    .section2_article{
+        width: 38%;
+        height: 160px;
+    }
+
+    .section5_h2{
+        font-size: 24px;
+    }
+    .section5_form{
+        width: 90%;
+    }
+    .footer_nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 40px;
+    }
+    .footer_ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

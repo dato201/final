@@ -1,42 +1,57 @@
 @media (max-width: 1124px) {
-    header{
+    header {
         display: flex;
     }
-    .header_ul{
+
+    .header_ul {
         display: flex;
         column-gap: 0px;
         font-size: 32px;
         color: #05BCCA;
     }
-    .header_ul::after{
+
+    .header_ul::after {
         content: "\f0c9";
         font-family: "font awesome 6 free";
         font-weight: 900;
     }
 
-    .header_li{
+    .header_li {
         display: none;
     }
-    .guitar_logo{
+
+    .guitar_logo {
         margin-left: 100%;
     }
-    .header_div{
+    .porm{
+        display: none;
+    }
+    .header_div {
         display: flex;
         justify-content: flex-end;
         column-gap: 32px;
     }
 
-    .header_div_text_conteiner{
+    .header_div_text_conteiner {
         display: none;
     }
 
     /* section2 */
-    .section2{
+    .section2 {
         padding: 6% 1%;
     }
 
-     /* section5 */
-    .section5_h2{
+    /* section3 */
+    .article_conteiner {
         width: 100%;
+    }
+
+    .i_shadow {
+        display: none;
+    }
+
+    /* section5 */
+    .section5_form{
+        width: 50%;
     }
 }

@@ -1,0 +1,24 @@
+@media (max-width: 744px) {
+    /* header */
+    .header_div{
+        width: 40%;
+    }
+    /* section2 */
+    .section2{
+        padding: 48px 32px;
+    }
+    .section2_article{
+        width: 48%;
+    }
+    .section2_conteiner{
+        width: 100%;
+    }
+    /* section5 */
+    .section5_form{
+        width: 70%;
+    }
+    /* footer */
+    .footer_nav{
+        width: 80%;
+    }
+}
