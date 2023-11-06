@@ -20,7 +20,6 @@ header {
     z-index: 1;
     max-width: inherit;
     width: inherit;
-    overflow: hidden;
     padding: 16px 0;
     background-color: #012426;
     display: flex;
@@ -51,6 +50,24 @@ header {
     color: #F5F5F5;
     text-decoration: underline;
     text-underline-offset: 8px;
+}
+
+.burger{
+    font-size: 24px;
+    display: none;
+}
+
+.fa-bars{
+    color: var(--lite_neon);
+    /* display: none; */
+}
+
+.xmark{
+    font-size: 24px;
+    color: var(--lite_neon);
+    border: none;
+    background-color: inherit;
+    display: none;
 }
 
 /* header_div */
@@ -473,8 +490,8 @@ span {
 }
 
 .section4_img_conteiner {
-    overflow: hidden;
-    overflow-x: scroll;
+    /* overflow: hidden; */
+    /* overflow-x: scroll; */
     display: flex;
     column-gap: 20px;
 }
@@ -484,7 +501,7 @@ span {
     height: 440px;
     display: flex;
     flex-direction: column-reverse;
-    flex: 1 0 404px;
+    /* flex: 1 0 404px; */
 }
 
 .cards1 {
@@ -534,7 +551,7 @@ span {
 }
 
 .section4_p {
-    margin-top: 24px;
+    margin-top: 36px;
     color: #D9D9D9;
     font-family: Inter;
     font-size: 16px;
@@ -712,9 +729,9 @@ footer {
 /* section_Catalog */
 .section_Catalog {
     background-color: var(--black_neon);
-    padding: 96px 94px;
+    padding: 96px 0;
 }
-
+/* calc(94 / 1440 * 100%) */
 .text_conteiner_Catalog{
     padding: 15px 8px;
 }
@@ -758,9 +775,7 @@ footer {
 }
 
 .Catalog{
-    height: 1720px;
     overflow: hidden;
-    /* margin: 64px auto 0; */
     margin-top: 64px;
     display: flex;
     justify-content: center;
@@ -776,6 +791,10 @@ footer {
     height: 400px;
     padding: 0px, 0px, 16px, 0px;
 
+}
+
+.card_section_Catalog:hover{
+    background-color: #223336;
 }
 
 .search_Catalog_button{

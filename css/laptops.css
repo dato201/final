@@ -3,33 +3,70 @@
         display: flex;
     }
 
+    .header_nav{
+        position: absolute;
+        top: 96px;
+        left: 0;
+        width: 200px;
+        height: 221px;
+        background-color: #05BCCA;
+        display: none;
+    }
+
     .header_ul {
         display: flex;
-        column-gap: 0px;
+        flex-direction: column;
+        row-gap: 16px;
         font-size: 32px;
         color: #05BCCA;
     }
 
-    .header_ul::after {
-        content: "\f0c9";
-        font-family: "font awesome 6 free";
-        font-weight: 900;
-    }
-
     .header_li {
-        display: none;
+        color: #C46A2B;
+        margin-left: 16px;
+    }
+    
+    .burger{
+        display: block;
+        border: none;
+        background-color: inherit;
+        cursor: pointer;
     }
 
     .guitar_logo {
         margin-left: 100%;
     }
     .porm{
+        position: absolute;
+        top: 268px;
+        left: -34px;
         display: none;
+        color: #2C4246;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 37px; 
     }
+
+    .fa-chevron-down{
+        font-size: 16px;
+        color: #2C4246;
+    }
+
+    .language{
+        color: #2C4246;
+        font-size: 24px;
+    }
+
     .header_div {
         display: flex;
         justify-content: flex-end;
         column-gap: 32px;
+    }
+    
+    .fa-bars{
+        display: block;
     }
 
     .header_div_text_conteiner {
@@ -39,6 +76,15 @@
     /* section2 */
     .section2 {
         padding: 6% 1%;
+    }
+
+    .section4_img_conteiner {
+        overflow: hidden;
+        overflow-x: scroll;
+    }
+    
+    .section4_cards{
+        flex: 1 0 404px;
     }
 
     /* section3 */
