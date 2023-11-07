@@ -1,3 +1,11 @@
+@media (max-width: 1251px) {
+    .Catalog {
+        height: 1720px;
+        overflow: hidden;
+        overflow-x: scroll;
+    }
+
+}
 @media (max-width: 1124px) {
     header {
         display: flex;
@@ -77,10 +85,9 @@
     .section2 {
         padding: 6% 1%;
     }
-
-    .section4_img_conteiner {
-        overflow: hidden;
-        overflow-x: scroll;
+    /* section4 */
+    .section4_cards{
+        flex: 1 0 404px;
     }
     
     .section4_cards{
@@ -94,6 +101,11 @@
 
     .i_shadow {
         display: none;
+    }
+
+    .section4_img_conteiner {
+        overflow: hidden;
+        overflow-x: scroll;
     }
 
     /* section5 */

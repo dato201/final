@@ -3,6 +3,12 @@
         width: 305px;
         height: 40px;
     }
+
+    .user_header{
+        width: 32px;
+        height: 32px;
+    }
+
     .nav_button{
         margin-top: 30px;
         padding: 8px;
@@ -10,6 +16,14 @@
         line-height: 24px;
     }
 
+    .chevron_section1{
+        display: none;
+    }
+
+    .section1_h1{
+        font-size: 24px;
+    }
+    
     .section2_article{
         width: 38%;
         height: 160px;
@@ -34,4 +48,47 @@
         justify-content: center;
         align-items: center;
     }
+
+    .card_section_Catalog{
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .text_conteiner_Catalog{
+        width: 100%;
+    }
+
+    .text_conteiner{
+        justify-content: space-between;
+    }
+
+    .guitar_Catalog{
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 298px;
+    }
+
+    .section_catalog_select{
+        width: 21px;
+        height: 21px;
+        padding: 8px;
+    }
+    
+    .Previous_button{
+        width: 52px;
+        height: 40px;
+    }
+
+    .Next_button{
+        width: 52px;
+        height: 40px;
+    }
+
+    .Previous_button_text{
+        display: none;
+    }
+
 }
