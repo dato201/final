@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @media (max-width: 780px) {
     .section_Contact{
         padding: 32px 0;
@@ -5,14 +12,23 @@
     }
     .section_Contact_div{
         width: 70%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         margin: auto;
     }
 
     .map{
-        justify-content: center;
-        align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
 }
 @media (max-width: 575px) {
@@ -40,10 +56,20 @@
     .section1_h1{
         font-size: 24px;
     }
+
+    .section2_conteiner{
+        width: 100%;
+    }
     
     .section2_article{
-        width: 38%;
+        width: 40%;
         height: 160px;
+        background-position: center;
+        background-size: 170px 160px;
+    }
+
+    .articie_h2{
+        font-size: 16px;
     }
 
     .section5_h2{
@@ -53,25 +79,52 @@
         width: 90%;
     }
     .footer_nav{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         row-gap: 40px;
     }
     .footer_ul{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
 
     .card_section_Catalog{
         width: 90%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
 
     .text_conteiner_Catalog{
@@ -79,7 +132,9 @@
     }
 
     .text_conteiner{
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
     }
 
     .guitar_Catalog{
@@ -88,10 +143,68 @@
         height: 298px;
     }
 
+    .form_section_Catalog{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        position: relative;
+        min-width: 36px;
+        height: 32px;
+    }
+
     .section_catalog_select{
-        width: 21px;
-        height: 21px;
+        border: none;
+        -webkit-appearance: none;
+           -moz-appearance: none;
+                appearance: none;
+        width: 36px;
+        height: 32px;
         padding: 8px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        color: rgba(240, 248, 255, 0);
+        background-color: inherit;
+        -webkit-box-align: baseline;
+            -ms-flex-align: baseline;
+                align-items: baseline;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        z-index: 1;
+    }
+
+    .section_Catalog_option{
+        color: #2C4246;
+        background-color: #A1C3C9;
+    }
+
+    .form_section_Catalog .i_section_Catalog{
+        width: 36px;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+
+    .i_angle{
+        font-size: 24px;
+        padding: 4px 6px;
+        border-radius: 4px;
+        display: block;
+        color: #2C4246;
+        background-color: #A1C3C9;
     }
     
     .Previous_button{
@@ -111,26 +224,43 @@
     .section_Contact_div{
         width: 80%;
     }
+    
+
+
+    .section_Contact_div_Contact_us{
+        height: 56px;
+        padding: 0;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
 
     .call{
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-evenly;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
     }
 
     .call_text{
         display: none;
     }
 
-    .section_Contact_div_Contact_us{
-        height: 56px;
-        align-items: center;
-        justify-content: center;
+    .shouw_map_img_mini{
+        display: block;
     }
 
     .shouw_map_img{
-        width: 24px;
-        height: 24px;
+        display: none;
     }
 
 }
