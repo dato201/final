@@ -1242,6 +1242,7 @@ footer {
 }
 
 .section_Contact_div_Contact_us {
+    margin-top: 40px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
