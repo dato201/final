@@ -32,6 +32,20 @@
     }
 }
 @media (max-width: 575px) {
+    .header_div{
+        column-gap: 8px;
+    }
+
+    .guitar_logo{
+        margin: auto;
+        width: 40px;
+        height: 40px;
+    }
+
+    .img_conteiner{
+        gap: 16px;
+    }
+     
     .nav_ul{
         width: 305px;
         height: 40px;

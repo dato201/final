@@ -95,6 +95,10 @@
                 column-gap: 32px;
     }
 
+    .img_conteiner{
+        margin-left: 0;
+    }
+
     .fa-bars {
         display: block;
     }
